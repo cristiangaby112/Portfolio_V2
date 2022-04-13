@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Home.module.css';
 import fotoperfil from '../../asset/img/fotoperfil.png';
 import Typical from 'react-typical';
-import {BsGithub, BsLinkedin, BsWhatsapp, BsFillArrowDownSquareFill} from "react-icons/bs"
+import {BsGithub, BsLinkedin, BsWhatsapp} from "react-icons/bs"
 
 const Home = () => {
   return (

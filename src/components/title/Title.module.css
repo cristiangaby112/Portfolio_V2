@@ -1,0 +1,16 @@
+.container_title{
+  background-color: #e4e6e7;
+  width: 50%;
+  padding: 5px 0 5px 0;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #1d0e11;
+  box-shadow: -8px 12px 2px 0px rgba(205, 65, 24, 0.75);
+  -webkit-box-shadow: -8px 12px 2px 0px rgba(205,65,24,0.75);
+  -moz-box-shadow: -8px 12px 2px 0px rgba(205,65,24,0.75);
+}
+.container_title h1{
+  margin: 0;
+}

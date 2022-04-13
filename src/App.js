@@ -1,14 +1,16 @@
 
 import './App.css';
-import Home from './components/Home/Home';
-import Skills from './components/skills/Skills';
+import Home from './pages/Home/Home';
+import Skills from './pages/skills/Skills';
 import NavBar from './components/NavBar/NavBar';
+import Proyectos from './pages/Proyectos/Proyectos';
 function App() {
   return (
     <div className="App">
       <NavBar/>
       <Home />
       <Skills />
+      <Proyectos />
     </div>
   );
 }

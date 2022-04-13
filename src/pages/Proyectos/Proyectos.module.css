@@ -1,0 +1,13 @@
+.container_proyectos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_proyecto{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1920px;
+  height: 90vh;
+}
