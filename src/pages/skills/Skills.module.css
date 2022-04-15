@@ -14,3 +14,29 @@
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
 }
+
+@media screen and (max-width: 768px){
+  .container_skills{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .container_skills{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .container_skills_title{
+    height: 80vh;
+  
+  }
+  .container_skills{
+    height: 400px;
+  }
+}
+

@@ -7,7 +7,6 @@
   font-family: 'Bebas Neue', cursive;
   font-size: 25px;
   font-weight: 600;
-  height: 100%;
   margin: 15px 0 15px 0;
   position: fixed;
   height: 60px;
@@ -59,3 +58,61 @@
   width: 100%;
   height: 100%;
 }
+.nav_toggle{
+  display: none;
+  cursor: pointer;
+  line-height: 59px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 1024px){
+  
+}
+
+@media screen and (max-width: 425px){
+  .container_navbar{
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .rutas{
+    flex-direction: column;
+    position: fixed;
+    background-color: #fff;
+    top: 59px;
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+    justify-content: space-evenly;
+  }
+
+  .link{
+    margin: 0;
+  }
+  
+  .inicio Link{
+    padding: 0;
+    margin: 0;
+    
+  }
+  .nav_toggle {
+    display: block;
+  }
+  .nav_menu_visible {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .container_navbar{
+    width: 100%;
+  }
+}
+
+  
