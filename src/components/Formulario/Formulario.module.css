@@ -80,7 +80,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .container_formulario{
     width: calc(100% - 100px);
   }
