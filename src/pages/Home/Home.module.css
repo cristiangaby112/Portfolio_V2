@@ -136,7 +136,7 @@
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 550px){
   .container_home{
     flex-direction: column;
     height: 90vh;

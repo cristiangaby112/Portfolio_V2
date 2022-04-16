@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 550px){
   .container_title{
     font-size: 20px;
   }
