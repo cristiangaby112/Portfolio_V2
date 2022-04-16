@@ -14,24 +14,24 @@ const NavBar = () => {
     <div className={s.container_navbar}>
       <button className={s.nav_toggle} onClick= {toggleMenu}><FaBars/></button>
       <div className={s.inicio}>
-        <Link to="inicio" smooth={true} className={s.link}>
+        <Link to="inicio" smooth={true} className={s.link} >
           Inicio
         </Link>
       </div>
       <div className={`${s.rutas} ${visible && s.nav_menu_visible}`}>
-        <Link to="skills" smooth={true} duration={1000} className={s.link}>
+        <Link to="skills" smooth={true} duration={1000} className={s.link} onClick={toggleMenu}>
           Skills
         </Link>
 
-        <Link to="proyectos" smooth={true} className={s.link}>
+        <Link to="proyectos" smooth={true} className={s.link}  onClick={toggleMenu}>
           Proyectos
         </Link>
 
-        <Link to="titulos" smooth={true} className={s.link}>
+        <Link to="titulos" smooth={true} className={s.link}  onClick={toggleMenu}>
           Titulos
         </Link>
 
-        <Link to="contactame" smooth={true} className={s.link}>
+        <Link to="contactame" smooth={true} className={s.link}  onClick={toggleMenu}>
           Contactame
         </Link>
 
