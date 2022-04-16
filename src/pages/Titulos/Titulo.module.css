@@ -24,10 +24,7 @@
 }
   
 
-@media screen and (max-width: 425px){
-  .container_titulos_name{
-    width: 425px;
-  }
+@media screen and (max-width: 550px){
   .subcontainer_titulos{
     margin-top: 0;
     height: 70vh

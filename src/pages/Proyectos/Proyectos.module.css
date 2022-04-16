@@ -35,7 +35,7 @@
 @media screen and (max-width: 550px){
   .container_proyecto{
     display: flex;  
-    height: 210vh;
+    height: 240vh;
     flex-wrap: wrap;
   }
     

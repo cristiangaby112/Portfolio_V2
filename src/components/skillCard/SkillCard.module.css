@@ -57,6 +57,9 @@
   .container_skill p{
     font-size: 20px;
   }
+  .container_skill{
+    padding: 10px 10px 10px 10px;
+  }
 }
 
 @media screen and (max-width: 375px){
