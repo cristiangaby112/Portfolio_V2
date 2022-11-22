@@ -69,10 +69,14 @@
 }
 
 @media screen and (max-width: 1024px){
-  
+  .container_navbar{
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 525px){
   .container_navbar{
     justify-content: flex-start;
     margin: 0;
