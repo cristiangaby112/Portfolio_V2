@@ -1,0 +1,13 @@
+{
+  "Nav_container":{
+    "Inicio":"Inicio",
+    "Habilidades":"Habilidades",
+    "Proyectos":"Projectos",
+    "Titulos":"Titulos",
+    "Contactame":"Contactame",
+    "Curriculum":"Curriculum"
+  },
+  "Home":{
+    "Hola, Yo Soy": "Hola, Yo Soy"
+  }
+}
