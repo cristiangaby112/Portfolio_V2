@@ -2,16 +2,19 @@ import React from 'react';
 import s from './Home.module.css';
 import fotoperfil from '../../asset/img/fotoperfil.png';
 import Typical from 'react-typical';
-import {BsGithub, BsLinkedin, BsWhatsapp} from "react-icons/bs"
+import {BsGithub, BsLinkedin, BsWhatsapp} from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation("translation");
+
   return (
     <div id="inicio" className={s.container_home}>
       <div className={s.container_img}>
         <img src={fotoperfil} alt="foto" width="400px" height="400px" />
       </div>
       <div className={s.container_texto}>
-        <h1>Hola, Yo Soy <span className={s.minombre}>Cristian Barriento</span></h1>
+        <h1>{t('Home.Hola, Yo Soy')} <span className={s.minombre}>Cristian Barriento</span></h1>
         <h2>
           <Typical
             steps={[
