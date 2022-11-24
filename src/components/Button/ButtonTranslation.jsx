@@ -1,4 +1,6 @@
 import { useTranslation } from "react-i18next";
+import s from "./ButtonTranslation.module.css";
+import { IoLanguage } from "react-icons/io5"
 
 const ButtonTranslation = ({idioma}) => {
   const { i18n } = useTranslation("translation");
@@ -9,7 +11,14 @@ const ButtonTranslation = ({idioma}) => {
   };
 
   return (
-    <button onClick={Translation}>{idioma}</button>
+    <button onClick={Translation} className={s.button}>
+      <div className={s.icon_container}>
+        <IoLanguage className={s.icon}/>
+      </div>
+      <div>
+        {idioma}
+      </div>
+    </button>
   )
 }
 
