@@ -50,7 +50,7 @@ const NavBar = () => {
           </div>
         </a>
       </div>
-      <div>
+      <div className={s.ButtonTranslation}>
         <ButtonTranslation idioma="EN"/>
         <ButtonTranslation idioma="ES"/>
       </div>
