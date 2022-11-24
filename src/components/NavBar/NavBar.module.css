@@ -68,6 +68,11 @@
   padding-top: 5px;
 }
 
+.ButtonTranslation{
+  display: flex;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 1024px){
   .container_navbar{
     justify-content: flex-start;
