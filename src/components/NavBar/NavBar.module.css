@@ -13,6 +13,11 @@
   width: 100%;
   z-index: 2;
 }
+
+.changeColor{
+  background-color: #1d0e11;
+}
+
 .inicio{
   padding-left: 20px;
 }
@@ -28,10 +33,14 @@
 .link:hover, .link:focus {
   background-size: 100% 2px;
 }
-/* .cv.container{
-  display: flex;
-  
-} */
+
+
+.linkChange{
+  color: #fff !important;
+}
+
+
+
 .a{
   display: flex !important;
   align-items: center;
