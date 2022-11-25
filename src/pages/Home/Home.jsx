@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Home.module.css';
-import fotoperfil from '../../asset/img/fotoperfil.png';
+import fotoperfil from '../../asset/img/fotoperfil2.png';
 import Typical from 'react-typical';
 import {BsGithub, BsLinkedin, BsWhatsapp} from "react-icons/bs";
 import { useTranslation } from "react-i18next";
