@@ -22,6 +22,16 @@
   transform: scale(2.1);
 }
 
+
+@media screen and (max-width: 768px){
+
+
+  .container_img:hover{
+    transform: scale(1.5);
+  }
+}
+
+
 @media screen and (max-width: 550px){
   .container_titulo{
     width: 300px;
@@ -35,6 +45,9 @@
     width: 100%;
     height: 100%;
   }
+  .container_img:hover{
+    transform: scale(1.4);
+  }
 }
 
 
@@ -46,6 +59,10 @@
   .container_img{
     width: 100%;
     height: 200px;
+  }
+
+  .container_img:hover{
+    transform: scale(1.4);
   }
 }
   
