@@ -7,7 +7,7 @@ import Title from '../../components/title/Title';
 const Skills = () => {
   return (
     <div id="skills" className= {s.container_skills_title}>
-      <Title title={"Skills"}/>
+      <Title title={"Habilidades"}/>
       <div className={s.container_skills}>
         {
           dataSkills?.map(skill => {
