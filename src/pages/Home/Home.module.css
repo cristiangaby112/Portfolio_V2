@@ -33,6 +33,10 @@
   color: #cd4118;
 }
 
+.container_texto_change{
+  color: black
+}
+
 .container_icon{
   
   display: flex;
