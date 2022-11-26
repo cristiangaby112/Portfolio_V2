@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./ProyectoCard.module.css";
+import { useTranslation } from "react-i18next";
 
 const ProyectoCard = ({
   video,
@@ -8,6 +9,8 @@ const ProyectoCard = ({
   iconGithub,
   linkWeb,
 }) => {
+  const { t } = useTranslation("translation");
+
   return (
     <div className={s.container_proyectoCard}>
       <div className={s.container_video}>
@@ -25,7 +28,7 @@ const ProyectoCard = ({
       </div>
       <div className={s.container_icons}>
         <a className={s.a} href={linkGithub}>
-          {iconGithub} Codigo
+          {iconGithub} {t('Container_Proyectos.Codigo')}
         </a>
         {linkWeb && (
           <a className={s.a} href={linkWeb}>

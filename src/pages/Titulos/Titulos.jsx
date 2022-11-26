@@ -2,12 +2,15 @@ import React, { Fragment } from 'react';
 import Title from '../../components/title/Title';
 import s from './Titulo.module.css';
 import dataTitulos from './dataTitulos';
-import TituloCard from '../../components/TituloCard/TituloCard'
+import TituloCard from '../../components/TituloCard/TituloCard';
+import { useTranslation } from 'react-i18next';
 
 const Titulos = () => {
+  const { t } = useTranslation("translation");
+
   return (
     <div id='titulos' className={s.container_titulos_name}>
-      <Title title={'Titulos'} />
+      <Title title= {t('Titulos')} />
       <div className={s.subcontainer_titulos}>
         {
           dataTitulos?.map(t => {
