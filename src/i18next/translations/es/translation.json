@@ -12,5 +12,9 @@
   },
   "Container_Skills":{
     "Habilidades":"Habilidades"
+  },
+  "Container_Proyectos":{
+    "Proyectos":"Projectos",
+    "Data_proyecto1":"Desarrollo de una aplicación Web en la cual se puede ver información de distintos paises utilizando una API externa y a partir de ella poder buscar paises, filtrarlos/ordenarlos, crear actividades turísticas y mas funcionalidades. Desarrollado con: React JS, Node JS, Express JS, Sequelize, PostgreSQL"
   }
 }

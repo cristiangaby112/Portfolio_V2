@@ -1,14 +1,14 @@
 import { BsGithub } from "react-icons/bs";
+// import { useTranslation } from "react-i18next";
 
+
+
+// const { t } = useTranslation("translation");
 const dataProyectos = [
   {
     id: 1,
     video: 'https://www.youtube.com/embed/Bpkp3N2XEVU',
-    texto: `Desarrollo de una aplicación Web en la cual se puede ver
-    información de distintos paises utilizando una API externa y a
-    partir de ella poder buscar paises, filtrarlos/ordenarlos, crear
-    actividades turísticas y mas funcionalidades. Desarrollado con:
-    React JS, Node JS, Express JS, Sequelize, PostgreSQL`,
+    // texto: `${useTranslation("translation").t('Container_Proyectos.Proyectos')}`,
     linkGithub: 'https://github.com/cristiangaby112/PI-Countries-main',
     iconGithub: <BsGithub />,
     linkWeb: 'https://pi-countries-main.vercel.app/'

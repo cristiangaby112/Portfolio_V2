@@ -12,5 +12,11 @@
   },
   "Container_Skills":{
     "Habilidades":"Skills"
+  },
+  "Container_Proyectos":{
+    "Proyectos":"Projects",
+    "Data_proyecto1":"Development of a Web application in which you can see information from different countries using an external API and from it to be able to search for countries, filter/order them, create ourist activities and more functionalities. Developed with: React JS, Node JS, Express JS, Sequelize, PostgreSQL"
   }
+
+
 }
