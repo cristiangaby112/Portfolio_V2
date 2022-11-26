@@ -15,7 +15,9 @@
   },
   "Container_Proyectos":{
     "Proyectos":"Projects",
-    "Data_proyecto1":"Development of a Web application in which you can see information from different countries using an external API and from it to be able to search for countries, filter/order them, create ourist activities and more functionalities. Developed with: React JS, Node JS, Express JS, Sequelize, PostgreSQL"
+    "Data_proyecto1":"Development of a Web application in which you can see information from different countries using an external API and from it to be able to search for countries, filter/order them, create ourist activities and more functionalities. Developed with: React JS, Node JS, Express JS, Sequelize, PostgreSQL",
+    "Data_proyecto2": "Development of a Netflix clone using React JS, Redux, CSS Module for layout, data collection through an external API.",
+    "Data_proyecto3": "Development of a mobile App for Android, `Event In`, where you can consult cultural, social and general interest events. You can search for any event by name, filter by events or order them by event category, Login and create your own event paying a fee per day through paid market. Developed with: React Native JS, Express JS, Firebase."
   }
 
 
