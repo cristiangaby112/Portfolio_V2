@@ -3,8 +3,10 @@ import { useForm, ValidationError } from "@formspree/react";
 import s from "./Formulario.module.css";
 // import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useTranslation } from "react-i18next";
 
 const Formulario = () => {
+  const {t} = useTranslation("translation");
   const [state, handleSubmit] = useForm("xeqnrzqw");
   const id = "message";
   // const mensaje = () => {
@@ -77,7 +79,7 @@ const Formulario = () => {
         />
       </div>
       <button type="submit" disabled={state.submitting} className={s.button}>
-        Enviar Mensaje
+        {t('Enviar_Mensaje')}
       </button>
       {/* <ToastContainer /> */}
     </form>
