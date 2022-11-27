@@ -110,6 +110,10 @@
     height: 200px;
   }
 
+  .texto_container{
+    padding: 10px
+  }
+
   .texto{
     font-size: 15px;
   }
