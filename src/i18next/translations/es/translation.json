@@ -22,5 +22,14 @@
   },
   "Titulos": "Titulos",
   "Contactame": "Contactame",
-  "Enviar_Mensaje": "Enviar Mensaje"
+  "Enviar_Mensaje": "Enviar Mensaje",
+  "Footer": {
+    "p1": "Hecho por @cristiangaby112",
+    "p2": "© 2022 - Todos los derechos reservados."
+  },
+  "Placeholder": {
+    "Mensaje_": "Mensaje",
+    "Correo_Electronico":"Correo Electronico",
+    "Nombre": "Nombre"
+  }
 }

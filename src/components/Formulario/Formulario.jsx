@@ -45,7 +45,7 @@ const Formulario = () => {
           type="text"
           name="name"
           label="Nombre"
-          placeholder="Nombre"
+          placeholder={t('Placeholder.Nombre')}
           required
         />
         <ValidationError prefix="Name" field="name" errors={state.errors} />
@@ -57,7 +57,7 @@ const Formulario = () => {
           type="email"
           name="email"
           label="Correo Electronico"
-          placeholder="Correo Electronico"
+          placeholder={t('Placeholder.Correo_Electronico')}
           required
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -69,7 +69,7 @@ const Formulario = () => {
           type="text"
           name="message"
           label="Mensaje"
-          placeholder="Mensaje"
+          placeholder={t('Placeholder.Mensaje_')}
           required
         />
         <ValidationError

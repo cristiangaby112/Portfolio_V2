@@ -1,8 +1,12 @@
 import React from "react";
 import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import s from "./Footer.module.css";
+import {useTranslation} from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation("translation");
+
+
   return (
     <div className={s.container_footer}>
       <div className={s.container_icon}>
@@ -26,9 +30,9 @@ const Footer = () => {
         </div>
       </div>
       <div className={s.subcontainer_derechos}>
-        <p>Hecho por @cristiangaby112</p>
+        <p>{t('Footer.p1')}</p>
         <p>cristiangabrielbarriento@outlook.com</p>
-        <p>© 2022 - Todos los derechos reservados.</p>
+        <p>{t('Footer.p2')}</p>
       </div>
     </div>
   );
