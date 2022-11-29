@@ -74,6 +74,19 @@
   /* text-decoration:none; */
 }
 
+.saludo{
+  display: flex;
+  color: #1d0e11;
+  background-color: #e4e6e7;
+  border-radius: 10px;
+  box-shadow: -8px 12px 2px 0px rgb(205 65 24 / 75%);
+  font-family: 'Bebas Neue', cursive;
+}
+.saludo h1 {
+  margin: 0;
+  padding: 10px
+}
+
 @media screen and (max-width: 1024px) {
   .container_formulario{
     width: calc(100% - 300px);

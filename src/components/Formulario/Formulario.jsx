@@ -29,7 +29,7 @@ const Formulario = () => {
   if (state.succeeded) {
     // mensaje();
     return (
-      <div>
+      <div className={s.saludo}>
         <h1>Gracias</h1>
         {/* <ToastContainer /> */}
       </div>
